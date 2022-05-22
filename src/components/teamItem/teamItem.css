@@ -1,0 +1,41 @@
+.team-item {
+    display: flex;
+    flex-direction: column;
+    color: #11749e;
+    width: 270px;
+
+    border-radius: 1rem 1rem 0 0;
+}
+
+.title-item {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 15px 25px;
+    background: white;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+
+    border-radius: 1rem 1rem 0 0;
+}
+
+.position {
+    color: black;
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 700;
+    background: white;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.team-item-bg {
+    background-size: cover;
+    background-position: center center;
+    width: 270px;
+    height: 417px;
+    display: flex;
+    align-items: flex-end;
+}

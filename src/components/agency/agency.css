@@ -1,0 +1,33 @@
+.hero-agency {
+    background: #11749e;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg-text {
+    position: absolute;
+    text-align: center;
+    font-size: 250px;
+    font-weight: 700;
+}
+
+.__W {
+    background: url('/public/img/bg-W.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}

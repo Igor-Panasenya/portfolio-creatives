@@ -1,0 +1,25 @@
+.hero-footer {
+    background: #222222;
+    background-size: cover;
+    background-position: center center;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.hero-footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-design {
+    width: 250px;
+}
+
+/* - - - - - Screen Query - - - -  -*/
+@media screen and (max-width: 600px) {
+    .footer-text {
+        font-size: 12px;
+    }
+}

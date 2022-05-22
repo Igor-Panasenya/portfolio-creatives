@@ -1,0 +1,9 @@
+.__T {
+    background: url('/public/img/bg-T.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+

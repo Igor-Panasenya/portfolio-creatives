@@ -1,0 +1,57 @@
+.hero-akita-grey {
+    background: #f3f3f3;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+.container-half-grey {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.img-half-grey {
+    width: 50%;
+    background: url('/public/img/akita-grey.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.akita-content-grey {
+    width: 500px;
+    font-size: 15px;
+    margin-left: 90px;
+    padding: 20px 0;
+}
+
+/* - - - - - Screen Query - - - -  -*/
+@media screen and (max-width: 1200px) {
+    .akita-content-grey {
+        margin-left: 30px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero-akita-grey {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .container-half-grey {
+        width: 100%;
+    }
+    .akita-content-grey {
+        width: 90%;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .img-half-grey {
+        width: 100%;
+        height: 180px;
+    }
+}

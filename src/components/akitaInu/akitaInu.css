@@ -1,0 +1,46 @@
+.hero-akita-inu {
+    background: url('/public/img/bg-akita-inu.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.hero-akita-inu .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.akita-inu-content {
+    color: white;
+    max-width: 40%;
+}
+.akita-inu-content p {
+    margin-bottom: 35px;
+}
+.akita-card {
+    background: #11749e;
+    background-size: cover;
+    background-position: center center;
+    min-width: 100%;
+
+    margin: 15px 0;
+    padding: 7px;
+}
+.akita-inu-photo {
+    width: 325px;
+    height: 655px;
+}
+
+/* - - - - - Screen Query - - - -  -*/
+@media screen and (max-width: 600px) {
+    .akita-inu-photo {
+        display: none;
+    }
+
+    .akita-inu-content {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
